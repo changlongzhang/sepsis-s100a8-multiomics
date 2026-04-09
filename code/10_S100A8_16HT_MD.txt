@@ -1,0 +1,111 @@
+#!/bin/bash
+# ==============================================================================
+# Project: Multi-omics diagnostic marker mining and immune microenvironment analysis in Sepsis
+# Target: S100A8 (4GGF) and 16-hydroxytriptolide (CID: 107985)
+# Force Field: AMBER14SB (Receptor) / GAFF (Ligand)
+# Simulation Time: 100 ns (298 K, 1 bar)
+# ==============================================================================
+
+# Prerequisites:
+# Before running this script, ensure the following pre-processed files from docking results are ready in the current directory:
+# 1. Initial structure file combining protein and ligand coordinates: merge_gmx.gro
+# 2. Complete topology file containing AMBER/GAFF parameters: merge_topol.top
+# 3. Referenced ligand topology file: lig.itp (which should be included in merge_topol.top)
+# 4. All corresponding .mdp MD parameter files
+
+echo "========== Stage 1: System Construction and Solvation =========="
+
+# 1. Define a cubic box with a 1.0 nm edge distance
+gmx editconf -f merge_gmx.gro -o rep_newbox.gro -c -d 1.0 -bt cubic 
+
+# 2. Add TIP3P water molecules
+gmx solvate -cp rep_newbox.gro -cs spc216.gro -o rep_solv.gro -p merge_topol.top
+
+echo "========== Stage 2: Ion Addition and Charge Neutralization =========="
+
+# 3. Generate tpr file for adding ions
+gmx grompp -f ref.ions.mdp -c rep_solv.gro -p merge_topol.top -o ions.tpr -maxwarn 2
+
+# 4. Replace water molecules to neutralize system charge (Note: manually select group 15 SOL during runtime)
+gmx genion -s ions.tpr -o solv_ions.gro -p merge_topol.top -pname NA -nname CL -neutral 
+
+echo "========== Stage 3: Dual Energy Minimization =========="
+
+# 5. Steepest Descent method
+gmx grompp -f ref.em_steep.mdp -c solv_ions.gro -p merge_topol.top -o em_steep.tpr
+gmx mdrun -v -deffnm em_steep
+
+# 6. Conjugate Gradient method
+gmx grompp -f ref.em_cg.mdp -c em_steep.gro -p merge_topol.top -o em_cg.tpr
+gmx mdrun -v -deffnm em_cg
+
+# 7. Generate custom index file (for subsequent equilibration and analysis)
+# Note: Please merge Protein and Ligand into one complex group during runtime (e.g., 1 | 13)
+gmx make_ndx -f em_cg.gro -o index.ndx 
+
+echo "========== Stage 4: System Equilibration (298K, 1bar) =========="
+
+# 8. NVT Equilibration (Constant volume and temperature, applying position restraints)
+gmx grompp -f ref.nvt.mdp -c em_cg.gro -r em_cg.gro -p merge_topol.top -n index.ndx -o nvt.tpr
+gmx mdrun -v -deffnm nvt -nb gpu
+
+# 9. NPT Equilibration (Constant pressure and temperature, applying position restraints)
+gmx grompp -f ref.npt.mdp -c nvt.gro -r nvt.gro -t nvt.cpt -p merge_topol.top -n index.ndx -o npt.tpr
+gmx mdrun -v -deffnm npt -nb gpu
+
+echo "========== Stage 5: 100 ns Production MD Simulation =========="
+
+# 10. Remove restraints, perform unrestrained production simulation using LINCS algorithm to constrain bond lengths
+gmx grompp -f ref.md.mdp -c npt.gro -r npt.gro -t npt.cpt -p merge_topol.top -n index.ndx -o md_0_1.tpr
+gmx mdrun -v -deffnm md_0_1 -nb gpu
+
+echo "========== Stage 6: Advanced Trajectory Correction (Core De-artifacting Steps) =========="
+
+# 11. Fix cross-boundary breaks caused by Periodic Boundary Conditions (PBC) (Select 0 System)
+gmx trjconv -s md_0_1.tpr -f md_0_1.xtc -o step1_whole.xtc -pbc whole
+
+# 12. Cluster the system to prevent the ligand and multi-chain protein from scattering in the box (Center select Complex, Output select 0 System)
+gmx trjconv -s md_0_1.tpr -f step1_whole.xtc -o step2_cluster.xtc -pbc cluster
+
+# 13. Eliminate coordinate jumps between adjacent frames (Select 0 System)
+gmx trjconv -s md_0_1.tpr -f step2_cluster.xtc -o fix_nojump.xtc -pbc nojump
+
+# 14. Recenter the protein in the middle of the box (Center select 1 Protein, Output select 0 System)
+gmx trjconv -s md_0_1.tpr -f fix_nojump.xtc -o fix_centered.xtc -center -pbc mol -ur compact
+
+# 15. Remove overall translation and rotation, fit trajectory to initial structure to get the final analysis trajectory (Fit select 4 Backbone, Output select 0 System)
+gmx trjconv -s md_0_1.tpr -f fix_centered.xtc -o FINAL_CLEAN.xtc -fit rot+trans
+
+echo "========== Stage 7: Routine Geometric and Stability Analysis =========="
+# All subsequent analyses are based on the cleaned FINAL_CLEAN.xtc
+
+# 16. Calculate backbone RMSD (Select 4 Backbone for both)
+gmx rms -s md_0_1.tpr -f FINAL_CLEAN.xtc -o pic.rmsd.xvg
+
+# 17. Calculate amino acid residue RMSF (Select 1 Protein)
+gmx rmsf -s md_0_1.tpr -f FINAL_CLEAN.xtc -res -o pic.rmsf.xvg
+
+# 18. Calculate radius of gyration Rg (Select 1 Protein)
+gmx gyrate -s md_0_1.tpr -f FINAL_CLEAN.xtc -o pic.gyrate.xvg
+
+# 19. Calculate number of hydrogen bonds between protein and ligand (Select 1 Protein then Ligand group)
+gmx hbond -s md_0_1.tpr -f FINAL_CLEAN.xtc -num pic.hbnum.xvg
+
+# 20. Calculate Solvent Accessible Surface Area SASA (Used to derive Buried SASA)
+gmx sasa -s md_0_1.tpr -f FINAL_CLEAN.xtc -n index.ndx -output pic.area.xvg
+
+echo "========== Stage 8: PCA and Free Energy Landscape (FEL) Construction =========="
+
+# 21. Extract covariance matrix and eigenvectors (Select 4 Backbone for both fitting and analysis)
+gmx covar -s md_0_1.tpr -f FINAL_CLEAN.xtc -v eigenvectors.trr -o eigenvalues.xvg
+
+# 22. Dimensionality reduction projection of the first two principal components (Select 4 Backbone)
+gmx anaeig -v eigenvectors.trr -f FINAL_CLEAN.xtc -s md_0_1.tpr -2d 2dproj.xvg
+
+# 23. Construct Gibbs free energy data matrix
+gmx sham -f 2dproj.xvg -ls gibbs.xpm -bin bindex.ndx
+
+# 24. Convert XPM to visualized PNG image (Depends on xpm2png.py in the same directory)
+python xpm2png.py -f gibbs.xpm -o gibbs.png
+
+echo "Full pipeline executed successfully! Analysis results are saved."
