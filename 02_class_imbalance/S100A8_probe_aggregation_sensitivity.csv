@@ -1,0 +1,5 @@
+"strategy","mapped_probe_count","representative_probe","mean_difference","AUC","result"
+"Mean across mapped probes",1,"11753823_a_at",1.87455961117732,0.998370927318296,"Identical because S100A8 maps to one probe on GPL13667"
+"Median across mapped probes",1,"11753823_a_at",1.87455961117732,0.998370927318296,"Identical because S100A8 maps to one probe on GPL13667"
+"Maximum across mapped probes",1,"11753823_a_at",1.87455961117732,0.998370927318296,"Identical because S100A8 maps to one probe on GPL13667"
+"Highest-variance mapped probe",1,"11753823_a_at",1.87455961117732,0.998370927318296,"Identical because S100A8 maps to one probe on GPL13667"

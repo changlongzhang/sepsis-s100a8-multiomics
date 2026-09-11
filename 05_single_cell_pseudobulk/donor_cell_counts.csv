@@ -1,0 +1,8 @@
+"donor_id","group","n_cells"
+"HC1","Control",5610
+"HC2","Control",5787
+"NSES","Sepsis",2004
+"P25","Sepsis",1085
+"P50","Sepsis",958
+"S2","Sepsis",6373
+"S3","Sepsis",1020

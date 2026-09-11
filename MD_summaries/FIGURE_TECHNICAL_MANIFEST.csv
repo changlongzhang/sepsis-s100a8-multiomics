@@ -1,0 +1,13 @@
+﻿field,value
+backend,Python/matplotlib
+source,comparative_analysis_v3 only; PBC cluster then nojump
+independent_unit,trajectory replicate
+replicates_per_condition,3
+production_length,100 ns per trajectory; six trajectories
+analysis_window,20-100 ns; selected time-series displayed from 0 ns
+summary,replicate median with full replicate range; no frame-level inference
+ligand_departure,unwrapped protein-fit coordinates
+ligand_association,PBC-aware unrotated nojump coordinates
+PCA,pooled 186 C-alpha basis; 4806 frames; PC1=36.578%; PC2=15.120%
+exports,"editable SVG/PDF, 600 dpi LZW TIFF, PNG preview"
+titles,none; lowercase panel letters and axis labels only

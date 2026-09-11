@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+~$*
+*.Rhistory
+*.RData
+*.Rproj.user/
+release_build/

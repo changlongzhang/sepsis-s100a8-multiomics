@@ -1,0 +1,97 @@
+WGCNA MEAN-PROBE AGGREGATION SENSITIVITY ANALYSIS
+Started: 2026-09-08 23:40:42 
+R: R version 4.5.1 (2025-06-13 ucrt) 
+WGCNA: 1.73 
+Seed: 20260908
+Reading existing log2 RMA mean-probe gene matrix without modifying source file...
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  5732498 306.2    9536024 509.3  7154118 382.1
+Vcells 19424750 148.2   36487622 278.4 28663175 218.7
+MAD threshold: none; finite nonzero-variance QC only
+Genes retained: 11518 of 11518 
+S100A8 retained: TRUE 
+ Flagging genes and samples with too many missing values...
+  ..step 1
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  5744940 306.9    9536024 509.3  7154118 382.1
+Vcells 28782215 219.6   64355619 491.0 61269634 467.5
+null device 
+          1 
+           used  (Mb) gc trigger  (Mb) max used  (Mb)
+Ncells  5757049 307.5    9536024 509.3  7358150 393.0
+Vcells 31075850 237.1   64355619 491.0 63875798 487.4
+pickSoftThreshold: will use block size 3884.
+ pickSoftThreshold: calculating connectivity for given powers...
+   ..working on genes 1 through 3884 of 11518
+   ..working on genes 3885 through 7768 of 11518
+   ..working on genes 7769 through 11518 of 11518
+   Power SFT.R.sq slope truncated.R.sq mean.k. median.k. max.k.
+1      1    0.125  3.49          0.499 5880.00   5930.00 6480.0
+2      2    0.367 -4.10          0.764 3210.00   3200.00 4050.0
+3      3    0.379 -3.01          0.850 1860.00   1810.00 2720.0
+4      4    0.356 -2.07          0.896 1130.00   1080.00 1900.0
+5      5    0.416 -1.77          0.931  716.00    677.00 1380.0
+6      6    0.494 -1.74          0.945  471.00    440.00 1040.0
+7      7    0.552 -1.71          0.946  320.00    294.00  807.0
+8      8    0.595 -1.70          0.944  223.00    200.00  635.0
+9      9    0.613 -1.71          0.933  159.00    138.00  506.0
+10    10    0.650 -1.68          0.943  116.00     97.20  409.0
+11    11    0.688 -1.67          0.951   85.70     69.30  333.0
+12    12    0.723 -1.67          0.958   64.50     50.00  274.0
+13    13    0.750 -1.66          0.966   49.10     36.40  228.0
+14    14    0.769 -1.67          0.967   37.90     26.80  190.0
+15    15    0.790 -1.69          0.970   29.60     20.00  161.0
+16    16    0.776 -1.79          0.961   23.30     15.10  140.0
+17    17    0.777 -1.85          0.959   18.50     11.40  122.0
+18    18    0.780 -1.91          0.960   14.90      8.65  107.0
+19    19    0.777 -1.97          0.958   12.00      6.59   94.4
+20    20    0.777 -2.01          0.958    9.76      5.07   83.4
+Selected soft threshold: 6 
+null device 
+          1 
+Building one-block signed network and signed TOM...
+ Calculating module eigengenes block-wise from all genes
+   Flagging genes and samples with too many missing values...
+    ..step 1
+ ..Working on block 1 .
+    TOM calculation: adjacency..
+    ..will not use multithreading.
+     Fraction of slow calculations: 0.000000
+    ..connectivity..
+    ..matrix multiplication (system BLAS)..
+    ..normalization..
+    ..done.
+ ....clustering..
+ ....detecting modules..
+ ....calculating module eigengenes..
+ ....checking kME in modules..
+     ..removing 547 genes from module 1 because their KME is too low.
+     ..removing 301 genes from module 2 because their KME is too low.
+     ..removing 153 genes from module 3 because their KME is too low.
+     ..removing 383 genes from module 4 because their KME is too low.
+     ..removing 4 genes from module 5 because their KME is too low.
+     ..removing 21 genes from module 6 because their KME is too low.
+     ..removing 49 genes from module 7 because their KME is too low.
+  ..reassigning 14 genes from module 1 to modules with higher KME.
+  ..reassigning 258 genes from module 2 to modules with higher KME.
+  ..reassigning 458 genes from module 3 to modules with higher KME.
+  ..reassigning 27 genes from module 4 to modules with higher KME.
+  ..reassigning 90 genes from module 5 to modules with higher KME.
+  ..reassigning 42 genes from module 6 to modules with higher KME.
+  ..reassigning 31 genes from module 7 to modules with higher KME.
+ ..merging modules that are too close..
+     mergeCloseModules: Merging modules whose distance is less than 0.25
+       Calculating new MEs...
+Warning in bitr(overlap, fromType = "SYMBOL", toType = "ENTREZID", OrgDb = org.Hs.eg.db) :
+  5.81% of input gene IDs are fail to map...
+Warning in bitr(universe_symbols, fromType = "SYMBOL", toType = "ENTREZID",  :
+  12.35% of input gene IDs are fail to map...
+Reading KEGG annotation online: "https://rest.kegg.jp/link/hsa/pathway"...
+Reading KEGG annotation online: "https://rest.kegg.jp/list/pathway/hsa"...
+Primary sepsis-associated module: red 
+Primary module size: 757 
+Primary module-DEG overlap: 241 
+S100A8 module/MM/GS: red 0.6685328 0.7947171 
+GO FDR significant: 73 
+KEGG FDR significant: 0 
+Completed: 2026-09-08 23:55:17 

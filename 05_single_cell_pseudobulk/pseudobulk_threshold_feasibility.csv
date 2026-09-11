@@ -1,0 +1,3 @@
+"analysis","min_cells","n_donors","n_control","n_sepsis","estimable"
+"primary_20",20,6,2,4,TRUE
+"strict_50",50,3,2,1,TRUE

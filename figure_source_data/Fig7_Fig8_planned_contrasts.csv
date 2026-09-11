@@ -1,0 +1,38 @@
+source_panel,figure_panel,endpoint,contrast,estimate,p_value_raw,p_adjusted,method,significant
+B,Fig 7A,IL-6,Control vs LPS,107.69,,0.0,Tukey HSD,True
+B,Fig 7A,IL-6,Control vs LPS+TPL,15.9547,,0.223,Tukey HSD,False
+B,Fig 7A,IL-6,LPS vs LPS+TPL,-91.7354,,0.0,Tukey HSD,True
+C,Fig 7A,TNF-α,Control vs LPS,10.0391,,0.0,Tukey HSD,True
+C,Fig 7A,TNF-α,Control vs LPS+TPL,1.5654,,0.001,Tukey HSD,True
+C,Fig 7A,TNF-α,LPS vs LPS+TPL,-8.4737,,0.0,Tukey HSD,True
+D,Fig 7A,IL-1β,Control vs LPS,2167.3345,,0.0,Tukey HSD,True
+D,Fig 7A,IL-1β,Control vs LPS+TPL,731.5613,,0.0208,Tukey HSD,True
+D,Fig 7A,IL-1β,LPS vs LPS+TPL,-1435.7732,,0.0001,Tukey HSD,True
+E,Fig 7A,S100A8,Control vs LPS,4.364,,0.0,Tukey HSD,True
+E,Fig 7A,S100A8,Control vs LPS+TPL,0.1438,,0.9032,Tukey HSD,False
+E,Fig 7A,S100A8,LPS vs LPS+TPL,-4.2202,,0.0,Tukey HSD,True
+G,Fig 7C,S100A8 / β-actin,Control vs LPS,0.917,,0.0003,Tukey HSD,True
+G,Fig 7C,S100A8 / β-actin,Control vs LPS+TPL,-0.2651,,0.3137,Tukey HSD,False
+G,Fig 7C,S100A8 / β-actin,LPS vs LPS+TPL,-1.1821,,0.0,Tukey HSD,True
+H,Fig 7C,NF-κB / β-actin,Control vs LPS,0.8267,,0.0086,Tukey HSD,True
+H,Fig 7C,NF-κB / β-actin,Control vs LPS+TPL,-0.286,,0.4412,Tukey HSD,False
+H,Fig 7C,NF-κB / β-actin,LPS vs LPS+TPL,-1.1127,,0.001,Tukey HSD,True
+I,Fig 7C,p-NF-κB / NF-κB,Control vs LPS,0.9581,,0.0085,Tukey HSD,True
+I,Fig 7C,p-NF-κB / NF-κB,Control vs LPS+TPL,-0.0311,,0.9929,Tukey HSD,False
+I,Fig 7C,p-NF-κB / NF-κB,LPS vs LPS+TPL,-0.9891,,0.0068,Tukey HSD,True
+N,Fig 8B,p-NF-kB / total NF-kB,siNC: LPS vs Control,0.7315670886423068,1.7634917856108772e-08,8.817458928054386e-08,Repeat-blocked model contrast; Holm,True
+N,Fig 8B,p-NF-kB / total NF-kB,siNC: LPS+TPL vs LPS,-0.23279796594987628,0.0027105736540687514,0.0038277542626475643,Repeat-blocked model contrast; Holm,True
+N,Fig 8B,p-NF-kB / total NF-kB,siS100A8: LPS vs Control,0.32598220402772377,0.00016521025516816234,0.0006608410206726494,Repeat-blocked model contrast; Holm,True
+N,Fig 8B,p-NF-kB / total NF-kB,siS100A8: LPS+TPL vs LPS,-0.24406628248787016,0.0019138771313237822,0.0038277542626475643,Repeat-blocked model contrast; Holm,True
+N,Fig 8B,p-NF-kB / total NF-kB,LPS: siS100A8 vs siNC,-0.29672900728775004,0.0003883385044156784,0.0011650155132470353,Repeat-blocked model contrast; Holm,True
+O,Fig 8C,S100A8 / beta-actin,siNC: LPS vs Control,0.2915668801916424,1.79660954240148e-07,7.18643816960592e-07,Repeat-blocked model contrast; Holm,True
+O,Fig 8C,S100A8 / beta-actin,siNC: LPS+TPL vs LPS,-0.19770234045480317,1.5745012605523646e-05,4.723503781657094e-05,Repeat-blocked model contrast; Holm,True
+O,Fig 8C,S100A8 / beta-actin,siS100A8: LPS vs Control,0.17998246847640342,4.1932111833144515e-05,8.386422366628903e-05,Repeat-blocked model contrast; Holm,True
+O,Fig 8C,S100A8 / beta-actin,siS100A8: LPS+TPL vs LPS,-0.030437590783914087,0.3390182958815576,0.3390182958815576,Repeat-blocked model contrast; Holm,False
+O,Fig 8C,S100A8 / beta-actin,LPS: siS100A8 vs siNC,-0.4933726908751038,2.0798231557512773e-10,1.0399115778756387e-09,Repeat-blocked model contrast; Holm,True
+Q,Fig 8E,CD74 / beta-actin,siNC: LPS vs Control,-0.37074106694326314,3.0012646526392177e-07,6.002529305278435e-07,Repeat-blocked model contrast; Holm,True
+Q,Fig 8E,CD74 / beta-actin,LPS: siS100A8 vs siNC,0.3471843045561557,4.433967114191858e-07,6.002529305278435e-07,Repeat-blocked model contrast; Holm,True
+R,Fig 8F,HLA-DRalpha / beta-actin,siNC: LPS vs Control,-0.4287458951093842,2.144624104390834e-06,4.289248208781668e-06,Repeat-blocked model contrast; Holm,True
+R,Fig 8F,HLA-DRalpha / beta-actin,LPS: siS100A8 vs siNC,0.3202715200618135,1.1869638328199764e-05,1.1869638328199764e-05,Repeat-blocked model contrast; Holm,True
+S,Fig 8G,S100A8 / beta-actin,siNC: LPS vs Control,0.3385295203219224,8.280404379339227e-05,8.280404379339227e-05,Repeat-blocked model contrast; Holm,True
+S,Fig 8G,S100A8 / beta-actin,LPS: siS100A8 vs siNC,-0.4540739591155517,1.5333366092778397e-05,3.0666732185556794e-05,Repeat-blocked model contrast; Holm,True

@@ -1,0 +1,20 @@
+{
+  "title": "Code and source data for: Multi-cohort transcriptomics and donor-aware single-cell analyses prioritize S100A8 within an emergency-myeloid, HLA-DR-low state in sepsis",
+  "upload_type": "dataset",
+  "description": "Version 2.0.0 aligned with the final revised manuscript PONE-D-26-24904. The archive contains analysis scripts, numerical source data, final supporting tables and figures, donor-aware single-cell summaries, repeat-blocked in vitro statistical outputs, and reproducibility documentation. Raw human transcriptomic data remain available from GEO and SCP548. Redistributed public-data snapshots remain subject to their source repositories' terms; no new rights are asserted over third-party data. The archive does not contain proprietary instrument-native blot acquisition files, which were not present in the available project archive.",
+  "creators": [
+    {"name": "Zhang, Changlong"},
+    {"name": "Cui, Qianqian"},
+    {"name": "Wu, Qiyun"},
+    {"name": "Tang, Wei"},
+    {"name": "Chu, Liang"},
+    {"name": "Zhang, Lei"}
+  ],
+  "version": "2.0.0",
+  "license": "cc-by-4.0",
+  "keywords": ["sepsis", "S100A8", "transcriptomics", "single-cell RNA sequencing", "pseudobulk", "HLA-DR", "reproducibility"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.19480951", "relation": "isVersionOf", "scheme": "doi"},
+    {"identifier": "https://github.com/changlongzhang/sepsis-s100a8-multiomics", "relation": "isSupplementTo", "scheme": "url"}
+  ]
+}

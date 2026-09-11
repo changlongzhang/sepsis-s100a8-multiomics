@@ -1,0 +1,229 @@
+comparison_id,label,threshold,delta_net_benefit
+GSE131411_CardiogenicShock,Cardiogenic shock,0.05,-0.029038112522685955
+GSE131411_CardiogenicShock,Cardiogenic shock,0.06,-0.027879677182685025
+GSE131411_CardiogenicShock,Cardiogenic shock,0.07,-0.02669632925472698
+GSE131411_CardiogenicShock,Cardiogenic shock,0.08,-0.022488755622188994
+GSE131411_CardiogenicShock,Cardiogenic shock,0.09,-0.020841227737778967
+GSE131411_CardiogenicShock,Cardiogenic shock,0.1,-0.01915708812260608
+GSE131411_CardiogenicShock,Cardiogenic shock,0.11,-0.017435102673381997
+GSE131411_CardiogenicShock,Cardiogenic shock,0.12,-0.015673981191222985
+GSE131411_CardiogenicShock,Cardiogenic shock,0.13,-0.013872374157749001
+GSE131411_CardiogenicShock,Cardiogenic shock,0.14,-0.012028869286286992
+GSE131411_CardiogenicShock,Cardiogenic shock,0.15,-0.010141987829615062
+GSE131411_CardiogenicShock,Cardiogenic shock,0.16,-0.00821018062397405
+GSE131411_CardiogenicShock,Cardiogenic shock,0.17,-0.006231823847113072
+GSE131411_CardiogenicShock,Cardiogenic shock,0.18,-0.004205214465938023
+GSE131411_CardiogenicShock,Cardiogenic shock,0.19,-0.002128565346956046
+GSE131411_CardiogenicShock,Cardiogenic shock,0.2,0.008620689655173042
+GSE131411_CardiogenicShock,Cardiogenic shock,0.21,0.020515058926233065
+GSE131411_CardiogenicShock,Cardiogenic shock,0.22,0.023872679045093048
+GSE131411_CardiogenicShock,Cardiogenic shock,0.23,0.027317510076131035
+GSE131411_CardiogenicShock,Cardiogenic shock,0.24,-0.003629764065335994
+GSE131411_CardiogenicShock,Cardiogenic shock,0.25,0.0
+GSE131411_CardiogenicShock,Cardiogenic shock,0.26,-0.030754892823859015
+GSE131411_CardiogenicShock,Cardiogenic shock,0.27,-0.026924893717524045
+GSE131411_CardiogenicShock,Cardiogenic shock,0.28,-0.022988505747126964
+GSE131411_CardiogenicShock,Cardiogenic shock,0.29,-0.018941233608547936
+GSE131411_CardiogenicShock,Cardiogenic shock,0.3,-0.01477832512315197
+GSE131411_CardiogenicShock,Cardiogenic shock,0.31,-0.010494752623687986
+GSE131411_CardiogenicShock,Cardiogenic shock,0.32,0.010141987829614063
+GSE131411_CardiogenicShock,Cardiogenic shock,0.33,0.015440041173442998
+GSE131411_CardiogenicShock,Cardiogenic shock,0.34,0.020898641588297018
+GSE131411_CardiogenicShock,Cardiogenic shock,0.35,0.026525198938992023
+GSE131411_CardiogenicShock,Cardiogenic shock,0.36,0.03232758620689702
+GSE131411_CardiogenicShock,Cardiogenic shock,0.37,0.038314176245210996
+GSE131411_CardiogenicShock,Cardiogenic shock,0.38,0.04449388209121302
+GSE131411_CardiogenicShock,Cardiogenic shock,0.39,0.05087620124364095
+GSE131411_CardiogenicShock,Cardiogenic shock,0.4,0.05747126436781602
+GSE131411_CardiogenicShock,Cardiogenic shock,0.41,0.06428988895382798
+GSE131411_CardiogenicShock,Cardiogenic shock,0.42,0.07134363852556397
+GSE131411_CardiogenicShock,Cardiogenic shock,0.43,0.07864488808227499
+GSE131411_CardiogenicShock,Cardiogenic shock,0.44,0.08620689655172503
+GSE131411_CardiogenicShock,Cardiogenic shock,0.45,0.09404388714733597
+GSE131411_CardiogenicShock,Cardiogenic shock,0.46,0.10217113665389499
+GSE131411_CardiogenicShock,Cardiogenic shock,0.47,0.11060507482108001
+GSE131411_CardiogenicShock,Cardiogenic shock,0.48,0.11936339522546402
+GSE131411_CardiogenicShock,Cardiogenic shock,0.49,0.12846517917511802
+GSE131411_CardiogenicShock,Cardiogenic shock,0.5,0.137931034482759
+GSE131411_CardiogenicShock,Cardiogenic shock,0.51,0.14778325123152702
+GSE131411_CardiogenicShock,Cardiogenic shock,0.52,0.15804597701149398
+GSE131411_CardiogenicShock,Cardiogenic shock,0.53,0.16874541452678
+GSE131411_CardiogenicShock,Cardiogenic shock,0.54,0.179910044977511
+GSE131411_CardiogenicShock,Cardiogenic shock,0.55,0.233716475095786
+GSE131411_CardiogenicShock,Cardiogenic shock,0.56,0.24764890282131702
+GSE131411_CardiogenicShock,Cardiogenic shock,0.57,0.262229350441059
+GSE131411_CardiogenicShock,Cardiogenic shock,0.58,0.277504105090312
+GSE131411_CardiogenicShock,Cardiogenic shock,0.59,0.293523969722456
+GSE131411_CardiogenicShock,Cardiogenic shock,0.6,0.362068965517242
+GSE131411_CardiogenicShock,Cardiogenic shock,0.61,0.381962864721486
+GSE131411_CardiogenicShock,Cardiogenic shock,0.62,0.4029038112522686
+GSE131411_CardiogenicShock,Cardiogenic shock,0.63,0.4249767008387696
+GSE131411_CardiogenicShock,Cardiogenic shock,0.64,0.4482758620689653
+GSE131411_CardiogenicShock,Cardiogenic shock,0.65,0.4729064039408864
+GSE131411_CardiogenicShock,Cardiogenic shock,0.66,0.484787018255578
+GSE131411_CardiogenicShock,Cardiogenic shock,0.67,0.48171368861024
+GSE131411_CardiogenicShock,Cardiogenic shock,0.68,0.478448275862069
+GSE131411_CardiogenicShock,Cardiogenic shock,0.69,0.474972191323693
+GSE131411_CardiogenicShock,Cardiogenic shock,0.7,0.471264367816092
+GSE131411_CardiogenicShock,Cardiogenic shock,0.71,0.467300832342449
+GSE131411_CardiogenicShock,Cardiogenic shock,0.72,0.463054187192118
+GSE131411_CardiogenicShock,Cardiogenic shock,0.73,0.458492975734355
+GSE131411_CardiogenicShock,Cardiogenic shock,0.74,0.453580901856764
+GSE131411_CardiogenicShock,Cardiogenic shock,0.75,0.448275862068965
+GSE131411_CardiogenicShock,Cardiogenic shock,0.76,0.551724137931034
+GSE131411_CardiogenicShock,Cardiogenic shock,0.77,0.551724137931034
+GSE131411_CardiogenicShock,Cardiogenic shock,0.78,0.551724137931034
+GSE131411_CardiogenicShock,Cardiogenic shock,0.79,0.551724137931034
+GSE131411_CardiogenicShock,Cardiogenic shock,0.8,0.551724137931034
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.05,0.0
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.06,0.0
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.07,0.0
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.08,0.0
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.09,0.0004600051111679493
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.1,0.000516795865633024
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.11,0.000574862816828059
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.12,0.0006342494714579594
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.13,0.0006950013365411012
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.14,0.0007571660356949783
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.15,0.000820793433652045
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.16,0.001771871539313019
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.17,0.002857943401513019
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.18,0.003062960862165953
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.19,0.0032730404823430037
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.2,-0.001162790697674998
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.21,-0.000942007653812027
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.22,-0.0007155635062610077
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.23,-0.00048323769253999505
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.24,-0.00024479804161592345
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.25,0.0
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.26,0.0002514142049019341
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.27,0.0005097164702140278
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.28,0.0007751937984500357
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.29,0.0010481493612840564
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.3,-0.00332225913621198
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.31,-0.0030333670374110833
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.32,-0.002735978112174964
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.33,-0.00242971190558805
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.34,-0.0021141649048630473
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.35,-0.006440071556350957
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.36,-0.015406976744186007
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.37,-0.0041343669250649695
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.38,-0.0004501125281319851
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.39,-0.004117422798322945
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.4,-0.0031007751937990324
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.41,-0.0034686637761139893
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.42,-0.0022453889334410615
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.43,-0.005630354957160022
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.44,-0.0006644518272430622
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.45,0.008456659619451079
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.46,0.010335917312662035
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.47,0.016410706450196988
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.48,0.022898032200357965
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.49,0.025353397172822978
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.5,0.018604651162789976
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.51,0.021262458471760004
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.52,0.024806201550386986
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.53,0.028104898565066982
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.54,0.042467138523760994
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.55,0.041860465116279
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.56,0.05454545454545501
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.57,0.055056787452677
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.58,0.05581395348837198
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.59,0.047532614861031997
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.6,0.053488372093022984
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.61,0.06702444841979704
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.62,0.073929008567931
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.63,0.09566310496543001
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.64,0.11989664082687299
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.65,0.14285714285714196
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.66,0.154309165526675
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.67,0.162649753347428
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.68,0.16744186046511697
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.69,0.18454613653413401
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.7,0.2186046511627906
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.71,0.21459502806736197
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.72,0.2332225913621263
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.73,0.238242894056847
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.74,0.227549194991055
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.75,0.213953488372093
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.76,0.190697674418605
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.77,0.169464105156724
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.78,0.122198731501057
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.79,0.156367663344407
+GSE134347_NoninfectiousICU,Non-infectious ICU,0.8,0.130232558139535
+GSE28750_Postoperative,Postoperative sterile inflammation,0.05,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.06,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.07,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.08,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.09,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.1,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.11,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.12,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.13,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.14,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.15,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.16,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.17,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.18,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.19,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.2,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.21,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.22,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.23,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.24,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.25,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.26,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.27,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.28,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.29,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.3,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.31,-0.047619047619048005
+GSE28750_Postoperative,Postoperative sterile inflammation,0.32,-0.04761904761904698
+GSE28750_Postoperative,Postoperative sterile inflammation,0.33,-0.095238095238095
+GSE28750_Postoperative,Postoperative sterile inflammation,0.34,-0.09523809523809501
+GSE28750_Postoperative,Postoperative sterile inflammation,0.35,-0.09523809523809511
+GSE28750_Postoperative,Postoperative sterile inflammation,0.36,-0.09523809523809522
+GSE28750_Postoperative,Postoperative sterile inflammation,0.37,-0.09523809523809501
+GSE28750_Postoperative,Postoperative sterile inflammation,0.38,-0.14285714285714318
+GSE28750_Postoperative,Postoperative sterile inflammation,0.39,-0.0819672131147541
+GSE28750_Postoperative,Postoperative sterile inflammation,0.4,-0.12698412698412706
+GSE28750_Postoperative,Postoperative sterile inflammation,0.41,-0.0912025827280063
+GSE28750_Postoperative,Postoperative sterile inflammation,0.42,-0.0870279146141215
+GSE28750_Postoperative,Postoperative sterile inflammation,0.43,-0.08270676691729309
+GSE28750_Postoperative,Postoperative sterile inflammation,0.44,-0.0782312925170067
+GSE28750_Postoperative,Postoperative sterile inflammation,0.45,-0.0735930735930736
+GSE28750_Postoperative,Postoperative sterile inflammation,0.46,-0.0282186948853615
+GSE28750_Postoperative,Postoperative sterile inflammation,0.47,0.06289308176100629
+GSE28750_Postoperative,Postoperative sterile inflammation,0.48,-0.0293040293040293
+GSE28750_Postoperative,Postoperative sterile inflammation,0.49,0.007469654528478
+GSE28750_Postoperative,Postoperative sterile inflammation,0.5,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.51,-0.0077745383867833
+GSE28750_Postoperative,Postoperative sterile inflammation,0.52,0.0396825396825397
+GSE28750_Postoperative,Postoperative sterile inflammation,0.53,0.0354609929078014
+GSE28750_Postoperative,Postoperative sterile inflammation,0.54,0.031055900621118
+GSE28750_Postoperative,Postoperative sterile inflammation,0.55,-0.0211640211640212
+GSE28750_Postoperative,Postoperative sterile inflammation,0.56,0.0346320346320346
+GSE28750_Postoperative,Postoperative sterile inflammation,0.57,0.0321151716500554
+GSE28750_Postoperative,Postoperative sterile inflammation,0.58,0.0294784580498866
+GSE28750_Postoperative,Postoperative sterile inflammation,0.59,0.0267131242740999
+GSE28750_Postoperative,Postoperative sterile inflammation,0.6,0.0238095238095238
+GSE28750_Postoperative,Postoperative sterile inflammation,0.61,0.0207570207570207
+GSE28750_Postoperative,Postoperative sterile inflammation,0.62,0.0175438596491228
+GSE28750_Postoperative,Postoperative sterile inflammation,0.63,0.0141570141570141
+GSE28750_Postoperative,Postoperative sterile inflammation,0.64,-0.037037037037037
+GSE28750_Postoperative,Postoperative sterile inflammation,0.65,-0.0408163265306123
+GSE28750_Postoperative,Postoperative sterile inflammation,0.66,-0.0448179271708684
+GSE28750_Postoperative,Postoperative sterile inflammation,0.67,-0.0490620490620491
+GSE28750_Postoperative,Postoperative sterile inflammation,0.68,0.0476190476190476
+GSE28750_Postoperative,Postoperative sterile inflammation,0.69,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.7,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.71,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.72,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.73,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.74,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.75,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.76,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.77,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.78,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.79,0.0
+GSE28750_Postoperative,Postoperative sterile inflammation,0.8,0.0

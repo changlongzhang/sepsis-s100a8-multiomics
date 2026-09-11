@@ -1,0 +1,1 @@
+PASS: SVG/PDF/600 dpi TIFF/PNG bundles exist; PDFs are single-page and within target area; TIFF resolution passed; editable SVG text was detected. Visual contact sheet generated for manual inspection.

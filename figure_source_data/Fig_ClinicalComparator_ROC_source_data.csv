@@ -1,0 +1,10 @@
+metric,estimate,ci_low,ci_high,comparison_id,dataset,comparator,n_sepsis,n_comparator,family,label
+AUC,0.972333779562695,0.936852967425256,0.995983935742972,GSE69528_ChronicDisease,GSE69528,Uninfected chronic disease control,83,27,Clinically similar comparator,GSE69528  |  chronic disease
+AUC,0.931578947368421,0.821052631578947,1.0,GSE131411_CardiogenicShock,GSE131411,Cardiogenic shock,19,10,Clinically similar comparator,GSE131411  |  Cardiogenic shock
+AUC,0.726531942633638,0.653952086049544,0.802164819643633,GSE134347_NoninfectiousICU,GSE134347,Non-infectious ICU,156,59,Clinically similar comparator,GSE134347  |  Non-infectious ICU
+AUC,0.427272727272727,0.172727272727273,0.700227272727272,GSE28750_Postoperative,GSE28750,Postoperative sterile inflammation,10,11,Clinically similar comparator,GSE28750  |  postoperative
+AUC,0.999073215940686,0.99737218103182,1.0,GSE134347_Healthy,GSE134347,Healthy,156,83,Healthy comparator,GSE134347  |  Healthy
+AUC,0.982788296041308,0.952646299483649,1.0,GSE69528_Healthy,GSE69528,Healthy,83,28,Healthy comparator,GSE69528  |  Healthy
+AUC,0.878507653061224,0.783793048469388,0.953125,GSE26440_Healthy,GSE26440,Healthy,98,32,Healthy comparator,GSE26440  |  Healthy
+AUC,0.837777777777778,0.706666666666667,0.94,GSE9692_Healthy,GSE9692,Healthy,30,15,Healthy comparator,GSE9692  |  Healthy
+AUC,0.755,0.55,0.920125,GSE28750_Healthy,GSE28750,Healthy,10,20,Healthy comparator,GSE28750  |  Healthy

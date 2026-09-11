@@ -1,0 +1,22 @@
+"donor_id","state_label","state_cells","monocyte_cells","pbmc_cells","group","proportion_monocytes","proportion_pbmc"
+"HC1","Emergency myeloid / immature neutrophil-like",3,67,5610,"Control",0.0447761194029851,0.00053475935828877
+"HC1","VCAN+ classical monocyte",42,67,5610,"Control",0.626865671641791,0.00748663101604278
+"HC1","Lymphoid-like contamination",22,67,5610,"Control",0.328358208955224,0.00392156862745098
+"HC2","Emergency myeloid / immature neutrophil-like",4,96,5787,"Control",0.0416666666666667,0.000691204423708312
+"HC2","Lymphoid-like contamination",31,96,5787,"Control",0.322916666666667,0.00535683428373942
+"HC2","VCAN+ classical monocyte",61,96,5787,"Control",0.635416666666667,0.0105408674615518
+"NSES","Lymphoid-like contamination",14,133,2004,"Sepsis",0.105263157894737,0.00698602794411178
+"NSES","Emergency myeloid / immature neutrophil-like",116,133,2004,"Sepsis",0.87218045112782,0.0578842315369262
+"NSES","VCAN+ classical monocyte",3,133,2004,"Sepsis",0.0225563909774436,0.00149700598802395
+"P25","VCAN+ classical monocyte",1,13,1085,"Sepsis",0.0769230769230769,0.000921658986175115
+"P25","Lymphoid-like contamination",1,13,1085,"Sepsis",0.0769230769230769,0.000921658986175115
+"P25","Emergency myeloid / immature neutrophil-like",11,13,1085,"Sepsis",0.846153846153846,0.0101382488479263
+"P50","Emergency myeloid / immature neutrophil-like",27,37,958,"Sepsis",0.72972972972973,0.0281837160751566
+"P50","VCAN+ classical monocyte",5,37,958,"Sepsis",0.135135135135135,0.00521920668058455
+"P50","Lymphoid-like contamination",5,37,958,"Sepsis",0.135135135135135,0.00521920668058455
+"S2","Emergency myeloid / immature neutrophil-like",17,36,6373,"Sepsis",0.472222222222222,0.00266750353051938
+"S2","Lymphoid-like contamination",18,36,6373,"Sepsis",0.5,0.00282441550290287
+"S2","VCAN+ classical monocyte",1,36,6373,"Sepsis",0.0277777777777778,0.000156911972383493
+"S3","Lymphoid-like contamination",4,20,1020,"Sepsis",0.2,0.00392156862745098
+"S3","Emergency myeloid / immature neutrophil-like",10,20,1020,"Sepsis",0.5,0.00980392156862745
+"S3","VCAN+ classical monocyte",6,20,1020,"Sepsis",0.3,0.00588235294117647

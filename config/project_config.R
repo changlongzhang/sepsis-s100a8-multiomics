@@ -1,0 +1,14 @@
+# 项目统一配置：只在此处定义原始项目根目录，分析脚本均使用相对路径。
+PROJECT_ROOT <- normalizePath(Sys.getenv("SEPSIS_PROJECT_ROOT", unset = ".."), winslash = "/", mustWork = TRUE)
+REVISION_ROOT <- normalizePath(".", winslash = "/", mustWork = TRUE)
+MASTER_SEED <- 20260718L
+TARGET_GENE <- "S100A8"
+DISCOVERY_GSE <- "GSE65682"
+EXTERNAL_GSE <- c("GSE26440", "GSE28750", "GSE69528", "GSE9692")
+SCRNA_GSE <- "GSE167363"
+
+# 大修第二阶段：临床相似对照、预后/严重程度及独立单核细胞验证。
+CLINICAL_MIMIC_GSE <- c("GSE32707", "GSE63042")
+PROGNOSIS_EXTENSION_GSE <- c("GSE54514", "GSE110487", "GSE272769", "GSE63042")
+MONOCYTE_VALIDATION_GSE <- "GSE205672"
+SCRNA_VALIDATION_PORTAL <- "SCP548"

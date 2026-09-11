@@ -1,0 +1,8 @@
+"donor_id","sample_id","group","Timepoint","derived_time","donor_sample_consistent","n_monocytes","eligible_20","eligible_50","orig_ident_is_donor","note"
+"HC1","GSM5102900_HC1","Control","Baseline","Baseline",TRUE,67,TRUE,TRUE,FALSE,"orig.ident is sample; donor parsed and verified from sample name"
+"HC2","GSM5102901_HC2","Control","Baseline","Baseline",TRUE,96,TRUE,TRUE,FALSE,"orig.ident is sample; donor parsed and verified from sample name"
+"NSES","GSM5511351_NSES_T0","Sepsis","Baseline","Baseline",TRUE,133,TRUE,TRUE,FALSE,"orig.ident is sample; donor parsed and verified from sample name"
+"P25","GSM5102902_P25_T0","Sepsis","Baseline","Baseline",TRUE,13,FALSE,FALSE,FALSE,"orig.ident is sample; donor parsed and verified from sample name"
+"P50","GSM5102904_P50_T0","Sepsis","Baseline","Baseline",TRUE,37,TRUE,FALSE,FALSE,"orig.ident is sample; donor parsed and verified from sample name"
+"S2","GSM5511353_S2_T0","Sepsis","Baseline","Baseline",TRUE,36,TRUE,FALSE,FALSE,"orig.ident is sample; donor parsed and verified from sample name"
+"S3","GSM5511355_S3_T0","Sepsis","Baseline","Baseline",TRUE,20,TRUE,FALSE,FALSE,"orig.ident is sample; donor parsed and verified from sample name"

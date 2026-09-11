@@ -1,0 +1,7 @@
+"dataset","evidence","n","rho","p_value","ci_low","ci_high","interpretation","claim_boundary"
+"GSE205672","Emergency-myeloid program",51,0.892760180995475,1.36242913043233e-18,0.818567478217706,0.937653599425863,"Direction supports S100A8-linked emergency myeloid state","Association only; no perturbation or causal inference"
+"GSE205672","Antigen-presentation program",51,-0.461719457013575,0.00064845456238507,-0.654079830824164,-0.213268200924907,"Direction supports S100A8-high/HLA-II-low association","Association only; no perturbation or causal inference"
+"GSE205672","NF-kB program",51,-0.0836199095022624,0.559634561543277,-0.35111700400511,0.196496771023063,"Direction does not support the proposed mechanism","Association only; no perturbation or causal inference"
+"SCP548","Antigen-presentation program",65,-0.298951048951049,0.0155608240457997,-0.505962140214904,-0.0593771309302237,"Direction supports S100A8-high/HLA-II-low association","Association only; no perturbation or causal inference"
+"GSE167363","Antigen-presentation program",6,-0.942857142857143,0.00480466472303207,-0.993900088497072,-0.559134902478421,"Direction supports S100A8-high/HLA-II-low association","Association only; no perturbation or causal inference"
+"GSE167363","Emergency-myeloid program",6,0.942857142857143,0.00480466472303207,0.559134902478421,0.993900088497072,"Direction supports S100A8-linked emergency myeloid state","Association only; no perturbation or causal inference"

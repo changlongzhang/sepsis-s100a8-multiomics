@@ -1,0 +1,15 @@
+accession,repository,study_role,analysis_subset,raw_data_url
+GSE65682,GEO,Primary whole-blood discovery cohort,"760 sepsis; 42 healthy controls; DEG, WGCNA, feature prioritization, temporal and endotype analyses",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65682
+GSE9692,GEO,External sepsis-versus-healthy validation,"30 sepsis; 15 healthy controls",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE9692
+GSE26440,GEO,External sepsis-versus-healthy validation,"98 sepsis; 32 healthy controls",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE26440
+GSE28750,GEO,Clinical-comparator validation,"10 sepsis; 20 healthy controls; 11 postoperative sterile-inflammation controls",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE28750
+GSE69528,GEO,Clinical-comparator validation,"83 sepsis; 28 healthy controls; 27 uninfected chronic-disease controls",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE69528
+GSE134347,GEO,Clinical-comparator validation,"156 sepsis; 83 healthy controls; 59 noninfectious ICU controls",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE134347
+GSE131411,GEO,Clinical-comparator validation,"19 sepsis; 10 cardiogenic controls; first eligible ICU sample (T1) per donor only; 3 excluded",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131411
+GSE272769,GEO,Prognostic validation,"161 total; 60 deaths; 123 shock cases",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE272769
+GSE54514,GEO,Prognostic validation,"35 total; day-1 analysis; 9 deaths",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54514
+GSE63042,GEO,Prognostic and sterile-SIRS validation,"106 sepsis including 28 deaths; 23 sterile-SIRS controls",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE63042
+GSE110487,GEO,Treatment-response validation,"31 total; 17 responders; 14 nonresponders",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110487
+GSE167363,GEO,Primary donor-aware single-cell analysis,"2 controls and 5 sepsis donors available; prespecified primary pseudobulk subset used 2 controls and 4 sepsis donors",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE167363
+GSE205672,GEO,Independent single-cell validation,"15 controls; 36 sepsis donors",https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE205672
+SCP548,Single Cell Portal,Independent single-cell clinical-gradient validation,"19 controls; 10 Leuk-UTI; 10 URO; 7 Int-URO; 7 ICU-NoSEP; 8 ICU-SEP; 4 Bac-SEP",https://singlecell.broadinstitute.org/single_cell/study/SCP548

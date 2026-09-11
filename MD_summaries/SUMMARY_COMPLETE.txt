@@ -1,0 +1,3 @@
+Replicate-aware summaries completed. Independent unit: trajectory replicate (n=3 per condition).
+Window: 20-100 ns; block diagnostics: 20 ns; contact cutoff: 0.4 nm.
+No frame-level inferential tests were performed.

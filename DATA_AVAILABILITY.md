@@ -1,0 +1,5 @@
+# Data availability
+
+All raw human transcriptomic data are publicly available from GEO or the stated single-cell repository under GSE65682, GSE9692, GSE26440, GSE28750, GSE69528, GSE134347, GSE131411, GSE272769, GSE54514, GSE63042, GSE110487, GSE167363, GSE205672, and SCP548. Analysis scripts and numerical source data underlying the figures and reported statistics are supplied as S2–S10 Code and source data files. Author-provided full-field blot exports and crop mappings are supplied as S1 Raw images. Seven Supporting Tables provide cohort definitions, oligonucleotide sequences, resources, clinical validation, class-balance analyses, donor-level pseudo-bulk results, and in vitro statistics. Proprietary instrument-native blot acquisition files were not present in the available project archive; S1 Raw images therefore contains the available full-field exports and mappings.
+
+This file reproduces the final revised manuscript statement. The versioned Zenodo deposit should contain the GitHub release snapshot and the complete final Supporting Information set. The new version DOI is intentionally not stated until Zenodo mints it.

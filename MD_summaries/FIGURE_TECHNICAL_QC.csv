@@ -1,0 +1,7 @@
+﻿figure,tiff_width_px,tiff_height_px,tiff_dpi_x,tiff_dpi_y,tiff_mode,pdf_pages,pdf_width_mm,pdf_height_mm,svg_editable_text_nodes,status
+Figure_1_MD_system_metrics,4317,2950,600.0,600.0,RGBA,1,182.8,124.92,91,PASS
+Figure_2_ligand_behavior,4317,3057,600.0,600.0,RGBA,1,182.77,129.46,151,PASS
+Figure_3_PCA_FEL,4316,1587,600.0,600.0,RGBA,1,182.75,67.23,62,PASS
+RMSD_latest,2097,1527,600.0,600.0,RGBA,1,88.82,64.69,15,PASS
+RMSF_latest,2097,1527,600.0,600.0,RGBA,1,88.82,64.69,19,PASS
+Hydrogen_bonds_latest,4317,1587,600.0,600.0,RGBA,1,182.79,67.23,46,PASS

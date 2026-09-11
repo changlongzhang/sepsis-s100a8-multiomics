@@ -1,0 +1,257 @@
+panel,module,endpoint,group,siRNA,treatment,LPS,TPL,TPL_nM,source_TPL_nM,replicate,value
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,0.0,0.0,1,0.803743723216868
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,10.0,10.0,1,0.919696611194363
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,25.0,25.0,1,0.919236532849594
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,50.0,50.0,1,0.508399716065936
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,100.0,100.0,1,0.381786155585351
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,0.0,0.956927965484068,2,1.06086931172201
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,10.0,1.01186485147072,2,1.00428533947468
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,25.0,0.893318368655802,2,0.799026324228202
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,50.0,0.49479637349503,2,0.539515494271638
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,100.0,0.40687403434102,2,0.41611520858234
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,0.0,1.0019558019558,3,1.14067914067914
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,10.0,1.03207823207823,3,1.02801163560248
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,25.0,0.885023485023485,3,0.838238238238238
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,50.0,0.498436898436898,3,0.514083314083314
+A,CCK-8,Cell viability,LPS 100 ng/mL,,,,,100.0,0.384969584969585,3,0.4003388003388
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,0.0,0.0,1,0.875358203854142
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,10.0,10.0,1,0.958185451008229
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,25.0,25.0,1,0.87556852538318
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,50.0,50.0,1,0.613941688356074
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,100.0,100.0,1,0.386308068459658
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,0.0,0.956927965484068,2,1.06575226656561
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,10.0,1.01186485147072,2,1.0428242427776
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,25.0,0.893318368655802,2,1.128093752733
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,50.0,0.49479637349503,2,0.572588403346646
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,100.0,0.40687403434102,2,0.446622744366382
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,0.0,1.0019558019558,3,1.11776391776392
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,10.0,1.03207823207823,3,0.997997997997998
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,25.0,0.885023485023485,3,1.13624393624394
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,50.0,0.498436898436898,3,0.564425964425964
+A,CCK-8,Cell viability,LPS 200 ng/mL,,,,,100.0,0.384969584969585,3,0.447586047586048
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,0.0,0.0,1,0.873412729710545
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,10.0,10.0,1,1.15281173594132
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,25.0,25.0,1,1.202513342272
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,50.0,50.0,1,0.599403212661356
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,100.0,100.0,1,0.426558351079212
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,0.0,0.956927965484068,2,
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,10.0,1.01186485147072,2,
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,25.0,0.893318368655802,2,
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,50.0,0.49479637349503,2,
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,100.0,0.40687403434102,2,
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,0.0,1.0019558019558,3,
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,10.0,1.03207823207823,3,
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,25.0,0.885023485023485,3,
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,50.0,0.498436898436898,3,
+A,CCK-8,Cell viability,LPS 500 ng/mL,,,,,100.0,0.384969584969585,3,
+B,qRT-PCR,IL-6,Control,,,,,,,1,1.0
+B,qRT-PCR,IL-6,Control,,,,,,,2,0.399610574861313
+B,qRT-PCR,IL-6,Control,,,,,,,3,1.69349062472505
+B,qRT-PCR,IL-6,Control,,,,,,,4,1.0
+B,qRT-PCR,IL-6,Control,,,,,,,5,1.0
+B,qRT-PCR,IL-6,Control,,,,,,,6,2.06575143029878
+B,qRT-PCR,IL-6,Control,,,,,,,7,1.0
+B,qRT-PCR,IL-6,LPS,,,,,,,1,116.162451880597
+B,qRT-PCR,IL-6,LPS,,,,,,,2,134.05364772104
+B,qRT-PCR,IL-6,LPS,,,,,,,3,65.0435156587643
+B,qRT-PCR,IL-6,LPS,,,,,,,4,145.344566921073
+B,qRT-PCR,IL-6,LPS,,,,,,,5,93.4852380550447
+B,qRT-PCR,IL-6,LPS,,,,,,,6,99.0441595867131
+B,qRT-PCR,IL-6,LPS+TPL,,,,,,,1,16.5642387814621
+B,qRT-PCR,IL-6,LPS+TPL,,,,,,,2,11.9864566150135
+B,qRT-PCR,IL-6,LPS+TPL,,,,,,,3,14.188662226611
+B,qRT-PCR,IL-6,LPS+TPL,,,,,,,4,19.3375529015484
+B,qRT-PCR,IL-6,LPS+TPL,,,,,,,5,16.1112888009075
+B,qRT-PCR,IL-6,LPS+TPL,,,,,,,6,24.5332535147137
+C,qRT-PCR,TNF-α,Control,,,,,,,1,1.0
+C,qRT-PCR,TNF-α,Control,,,,,,,2,1.30435206976556
+C,qRT-PCR,TNF-α,Control,,,,,,,3,1.0
+C,qRT-PCR,TNF-α,Control,,,,,,,4,1.01161944030192
+C,qRT-PCR,TNF-α,Control,,,,,,,5,1.0
+C,qRT-PCR,TNF-α,Control,,,,,,,6,1.05214484820072
+C,qRT-PCR,TNF-α,LPS,,,,,,,1,11.524774894654
+C,qRT-PCR,TNF-α,LPS,,,,,,,2,10.5560632861831
+C,qRT-PCR,TNF-α,LPS,,,,,,,3,10.9283220540352
+C,qRT-PCR,TNF-α,LPS,,,,,,,4,10.1026836095332
+C,qRT-PCR,TNF-α,LPS,,,,,,,5,12.787538395562
+C,qRT-PCR,TNF-α,LPS,,,,,,,6,10.7034204382889
+C,qRT-PCR,TNF-α,LPS+TPL,,,,,,,1,2.90123401083156
+C,qRT-PCR,TNF-α,LPS+TPL,,,,,,,2,2.69446715373137
+C,qRT-PCR,TNF-α,LPS+TPL,,,,,,,3,2.15845647300885
+C,qRT-PCR,TNF-α,LPS+TPL,,,,,,,4,3.18950675357277
+C,qRT-PCR,TNF-α,LPS+TPL,,,,,,,5,2.30271096039997
+C,qRT-PCR,TNF-α,LPS+TPL,,,,,,,6,2.51402674904366
+D,qRT-PCR,IL-1β,Control,,,,,,,1,1.0
+D,qRT-PCR,IL-1β,Control,,,,,,,2,1.79834107127637
+D,qRT-PCR,IL-1β,Control,,,,,,,3,1.95206352155245
+D,qRT-PCR,IL-1β,Control,,,,,,,4,1.0
+D,qRT-PCR,IL-1β,Control,,,,,,,5,1.0
+D,qRT-PCR,IL-1β,Control,,,,,,,6,1.0
+D,qRT-PCR,IL-1β,LPS,,,,,,,1,2421.4687457836
+D,qRT-PCR,IL-1β,LPS,,,,,,,2,2662.07099786086
+D,qRT-PCR,IL-1β,LPS,,,,,,,3,1502.69169982583
+D,qRT-PCR,IL-1β,LPS,,,,,,,4,1082.38647353485
+D,qRT-PCR,IL-1β,LPS,,,,,,,5,2634.53628288288
+D,qRT-PCR,IL-1β,LPS,,,,,,,6,2708.60317925897
+D,qRT-PCR,IL-1β,LPS+TPL,,,,,,,1,733.337412842412
+D,qRT-PCR,IL-1β,LPS+TPL,,,,,,,2,576.695784577314
+D,qRT-PCR,IL-1β,LPS+TPL,,,,,,,3,551.92687771794
+D,qRT-PCR,IL-1β,LPS+TPL,,,,,,,4,875.117746447255
+D,qRT-PCR,IL-1β,LPS+TPL,,,,,,,5,989.118800819046
+D,qRT-PCR,IL-1β,LPS+TPL,,,,,,,6,670.921422775484
+E,qRT-PCR,S100A8,Control,,,,,,,1,1.0
+E,qRT-PCR,S100A8,Control,,,,,,,2,1.55293775000208
+E,qRT-PCR,S100A8,Control,,,,,,,3,1.23970769993899
+E,qRT-PCR,S100A8,Control,,,,,,,4,1.0
+E,qRT-PCR,S100A8,Control,,,,,,,5,1.34723357686568
+E,qRT-PCR,S100A8,Control,,,,,,,6,1.0
+E,qRT-PCR,S100A8,Control,,,,,,,7,1.0
+E,qRT-PCR,S100A8,Control,,,,,,,8,1.26575659397028
+E,qRT-PCR,S100A8,LPS,,,,,,,1,6.49051669916939
+E,qRT-PCR,S100A8,LPS,,,,,,,2,5.97939699453961
+E,qRT-PCR,S100A8,LPS,,,,,,,3,4.093495567987
+E,qRT-PCR,S100A8,LPS,,,,,,,4,6.06286626604158
+E,qRT-PCR,S100A8,LPS,,,,,,,5,5.84282737844043
+E,qRT-PCR,S100A8,LPS,,,,,,,6,6.26218733039279
+E,qRT-PCR,S100A8,LPS,,,,,,,7,4.04647776120768
+E,qRT-PCR,S100A8,LPS+TPL,,,,,,,1,1.17554790628358
+E,qRT-PCR,S100A8,LPS+TPL,,,,,,,2,1.06929999858172
+E,qRT-PCR,S100A8,LPS+TPL,,,,,,,3,1.38831345047976
+E,qRT-PCR,S100A8,LPS+TPL,,,,,,,4,1.14604736197
+E,qRT-PCR,S100A8,LPS+TPL,,,,,,,5,1.6358041171156
+E,qRT-PCR,S100A8,LPS+TPL,,,,,,,6,1.50177290363477
+G,Western blot,S100A8 / β-actin,Control,,,,,,,1,1.33667587528578
+G,Western blot,S100A8 / β-actin,Control,,,,,,,2,1.34672992966441
+G,Western blot,S100A8 / β-actin,Control,,,,,,,3,1.43998696605635
+G,Western blot,S100A8 / β-actin,Control,,,,,,,4,0.734796635951592
+G,Western blot,S100A8 / β-actin,Control,,,,,,,5,0.639037609470938
+G,Western blot,S100A8 / β-actin,Control,,,,,,,6,0.502770229211849
+G,Western blot,S100A8 / β-actin,LPS,,,,,,,1,1.87950156385329
+G,Western blot,S100A8 / β-actin,LPS,,,,,,,2,2.1086897616086
+G,Western blot,S100A8 / β-actin,LPS,,,,,,,3,2.03491038579829
+G,Western blot,S100A8 / β-actin,LPS,,,,,,,4,2.22937059436015
+G,Western blot,S100A8 / β-actin,LPS,,,,,,,5,1.64631343171828
+G,Western blot,S100A8 / β-actin,LPS,,,,,,,6,1.6034505278826
+G,Western blot,S100A8 / β-actin,LPS+TPL,,,,,,,1,0.876578744351887
+G,Western blot,S100A8 / β-actin,LPS+TPL,,,,,,,2,0.754718642230362
+G,Western blot,S100A8 / β-actin,LPS+TPL,,,,,,,3,1.04028030798992
+G,Western blot,S100A8 / β-actin,LPS+TPL,,,,,,,4,0.580198428232358
+G,Western blot,S100A8 / β-actin,LPS+TPL,,,,,,,5,0.55167520416454
+G,Western blot,S100A8 / β-actin,LPS+TPL,,,,,,,6,0.606241737638386
+H,Western blot,NF-κB / β-actin,Control,,,,,,,1,0.78956190322773
+H,Western blot,NF-κB / β-actin,Control,,,,,,,2,1.70289492856945
+H,Western blot,NF-κB / β-actin,Control,,,,,,,3,0.905596827565183
+H,Western blot,NF-κB / β-actin,Control,,,,,,,4,1.11346802765541
+H,Western blot,NF-κB / β-actin,Control,,,,,,,5,0.488474824564982
+H,Western blot,NF-κB / β-actin,LPS,,,,,,,1,1.61226604928301
+H,Western blot,NF-κB / β-actin,LPS,,,,,,,2,1.75392436474039
+H,Western blot,NF-κB / β-actin,LPS,,,,,,,3,1.87765631128322
+H,Western blot,NF-κB / β-actin,LPS,,,,,,,4,1.97101502203793
+H,Western blot,NF-κB / β-actin,LPS,,,,,,,5,1.91838648145092
+H,Western blot,NF-κB / β-actin,LPS+TPL,,,,,,,1,0.379246995828752
+H,Western blot,NF-κB / β-actin,LPS+TPL,,,,,,,2,0.359172136537277
+H,Western blot,NF-κB / β-actin,LPS+TPL,,,,,,,3,0.598765675627778
+H,Western blot,NF-κB / β-actin,LPS+TPL,,,,,,,4,1.28739042010416
+H,Western blot,NF-κB / β-actin,LPS+TPL,,,,,,,5,0.945318761449802
+I,Western blot,p-NF-κB / NF-κB,Control,,,,,,,1,1.0749605910762
+I,Western blot,p-NF-κB / NF-κB,Control,,,,,,,2,1.96910939584767
+I,Western blot,p-NF-κB / NF-κB,Control,,,,,,,3,1.46324620450234
+I,Western blot,p-NF-κB / NF-κB,Control,,,,,,,4,0.572976585217703
+I,Western blot,p-NF-κB / NF-κB,Control,,,,,,,5,0.297747581105859
+I,Western blot,p-NF-κB / NF-κB,Control,,,,,,,6,0.621959541072724
+I,Western blot,p-NF-κB / NF-κB,LPS,,,,,,,1,1.82075443431155
+I,Western blot,p-NF-κB / NF-κB,LPS,,,,,,,2,1.89480670458721
+I,Western blot,p-NF-κB / NF-κB,LPS,,,,,,,3,2.20460305682997
+I,Western blot,p-NF-κB / NF-κB,LPS,,,,,,,4,2.45118670131624
+I,Western blot,p-NF-κB / NF-κB,LPS,,,,,,,5,1.61679468997111
+I,Western blot,p-NF-κB / NF-κB,LPS,,,,,,,6,1.76027052732195
+I,Western blot,p-NF-κB / NF-κB,LPS+TPL,,,,,,,1,0.692673368270092
+I,Western blot,p-NF-κB / NF-κB,LPS+TPL,,,,,,,2,0.487108590449954
+I,Western blot,p-NF-κB / NF-κB,LPS+TPL,,,,,,,3,0.912094854425305
+I,Western blot,p-NF-κB / NF-κB,LPS+TPL,,,,,,,4,0.749567309654935
+I,Western blot,p-NF-κB / NF-κB,LPS+TPL,,,,,,,5,1.40363153730654
+I,Western blot,p-NF-κB / NF-κB,LPS+TPL,,,,,,,6,1.56856914042404
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,Control,0.0,0.0,,,1,1.047204149423
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,Control,0.0,0.0,,,2,0.841840787645009
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,Control,0.0,0.0,,,3,1.11095506293199
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,LPS,1.0,0.0,,,1,1.69929761728715
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,LPS,1.0,0.0,,,2,1.78792890980661
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,LPS,1.0,0.0,,,3,1.70747473883316
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,LPS+TPL,1.0,1.0,,,1,1.57770267020555
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,LPS+TPL,1.0,1.0,,,2,1.47951871218045
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,LPS+TPL,1.0,1.0,,,3,1.43908598569129
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,TPL,0.0,1.0,,,1,1.10685202015478
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,TPL,0.0,1.0,,,2,0.846016397713554
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siNC,TPL,0.0,1.0,,,3,1.03119907727989
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,Control,0.0,0.0,,,1,1.17249675780002
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,Control,0.0,0.0,,,2,1.06563659325166
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,Control,0.0,0.0,,,3,1.08843428092882
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,LPS,1.0,0.0,,,1,1.42347112775087
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,LPS,1.0,0.0,,,2,1.46179945366041
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,LPS,1.0,0.0,,,3,1.41924366265239
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,LPS+TPL,1.0,1.0,,,1,1.21453224390688
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,LPS+TPL,1.0,1.0,,,2,1.11095577549203
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,LPS+TPL,1.0,1.0,,,3,1.24682737720115
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,TPL,0.0,1.0,,,1,1.17246545377456
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,TPL,0.0,1.0,,,2,1.03106164318307
+N,New 8-group Western blot,p-NF-kB / total NF-kB,,siS100A8,TPL,0.0,1.0,,,3,0.998395326672714
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,Control,0.0,0.0,,,1,0.989979694194691
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,Control,0.0,0.0,,,2,1.00005504719607
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,Control,0.0,0.0,,,3,1.00996525860924
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,LPS,1.0,0.0,,,1,1.27665132406613
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,LPS,1.0,0.0,,,2,1.34097610502776
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,LPS,1.0,0.0,,,3,1.25707321148104
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,LPS+TPL,1.0,1.0,,,1,1.06516414463297
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,LPS+TPL,1.0,1.0,,,2,1.11331461736795
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,LPS+TPL,1.0,1.0,,,3,1.1031148572096
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,TPL,0.0,1.0,,,1,0.972575458991273
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,TPL,0.0,1.0,,,2,1.04356091605285
+O,New 8-group Western blot,S100A8 / beta-actin,,siNC,TPL,0.0,1.0,,,3,0.967297204780413
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,Control,0.0,0.0,,,1,0.56524815267718
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,Control,0.0,0.0,,,2,0.671698796323386
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,Control,0.0,0.0,,,3,0.617688213519842
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,LPS,1.0,0.0,,,1,0.783676704746526
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,LPS,1.0,0.0,,,2,0.75464862865013
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,LPS,1.0,0.0,,,3,0.856257234552962
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,LPS+TPL,1.0,1.0,,,1,0.764151138162099
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,LPS+TPL,1.0,1.0,,,2,0.771084731229336
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,LPS+TPL,1.0,1.0,,,3,0.768033926206442
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,TPL,0.0,1.0,,,1,0.512971150747452
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,TPL,0.0,1.0,,,2,0.613499839102661
+O,New 8-group Western blot,S100A8 / beta-actin,,siS100A8,TPL,0.0,1.0,,,3,0.645784236163034
+Q,New 4-group Western blot,CD74 / beta-actin,,siNC,Control,0.0,,,,1,1.02205198072159
+Q,New 4-group Western blot,CD74 / beta-actin,,siNC,Control,0.0,,,,2,0.994305727718722
+Q,New 4-group Western blot,CD74 / beta-actin,,siNC,Control,0.0,,,,3,0.983642291559684
+Q,New 4-group Western blot,CD74 / beta-actin,,siNC,LPS,1.0,,,,1,0.684489136227321
+Q,New 4-group Western blot,CD74 / beta-actin,,siNC,LPS,1.0,,,,2,0.581865414229381
+Q,New 4-group Western blot,CD74 / beta-actin,,siNC,LPS,1.0,,,,3,0.621422248713504
+Q,New 4-group Western blot,CD74 / beta-actin,,siS100A8,Control,0.0,,,,1,1.04980575818159
+Q,New 4-group Western blot,CD74 / beta-actin,,siS100A8,Control,0.0,,,,2,0.970670925335854
+Q,New 4-group Western blot,CD74 / beta-actin,,siS100A8,Control,0.0,,,,3,1.0092126476375
+Q,New 4-group Western blot,CD74 / beta-actin,,siS100A8,LPS,1.0,,,,1,1.03320259450602
+Q,New 4-group Western blot,CD74 / beta-actin,,siS100A8,LPS,1.0,,,,2,0.942501253527787
+Q,New 4-group Western blot,CD74 / beta-actin,,siS100A8,LPS,1.0,,,,3,0.953625864804866
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siNC,Control,0.0,,,,1,1.01253851266193
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siNC,Control,0.0,,,,2,0.959068331790123
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siNC,Control,0.0,,,,3,1.02839315554795
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siNC,LPS,1.0,,,,1,0.621850952402715
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siNC,LPS,1.0,,,,2,0.523999118335739
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siNC,LPS,1.0,,,,3,0.567912243933395
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siS100A8,Control,0.0,,,,1,1.03695466548729
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siS100A8,Control,0.0,,,,2,0.886280677123452
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siS100A8,Control,0.0,,,,3,0.915542888993151
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siS100A8,LPS,1.0,,,,1,0.9591936713273
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siS100A8,LPS,1.0,,,,2,0.829259327774472
+R,New 4-group Western blot,HLA-DRalpha / beta-actin,,siS100A8,LPS,1.0,,,,3,0.886123875755518
+S,New 4-group Western blot,S100A8 / beta-actin,,siNC,Control,0.0,,,,1,0.936946724469292
+S,New 4-group Western blot,S100A8 / beta-actin,,siNC,Control,0.0,,,,2,1.01390572663695
+S,New 4-group Western blot,S100A8 / beta-actin,,siNC,Control,0.0,,,,3,1.04914754889376
+S,New 4-group Western blot,S100A8 / beta-actin,,siNC,LPS,1.0,,,,1,1.38862932533955
+S,New 4-group Western blot,S100A8 / beta-actin,,siNC,LPS,1.0,,,,2,1.28199947685258
+S,New 4-group Western blot,S100A8 / beta-actin,,siNC,LPS,1.0,,,,3,1.34495975877364
+S,New 4-group Western blot,S100A8 / beta-actin,,siS100A8,Control,0.0,,,,1,0.570860222172339
+S,New 4-group Western blot,S100A8 / beta-actin,,siS100A8,Control,0.0,,,,2,0.553008097238788
+S,New 4-group Western blot,S100A8 / beta-actin,,siS100A8,Control,0.0,,,,3,0.569179293188637
+S,New 4-group Western blot,S100A8 / beta-actin,,siS100A8,LPS,1.0,,,,1,0.850886772696051
+S,New 4-group Western blot,S100A8 / beta-actin,,siS100A8,LPS,1.0,,,,2,0.89536316691058
+S,New 4-group Western blot,S100A8 / beta-actin,,siS100A8,LPS,1.0,,,,3,0.907116744012483

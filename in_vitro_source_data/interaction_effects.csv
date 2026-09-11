@@ -1,0 +1,7 @@
+"endpoint","siRNA","estimate","se","df","lower","upper","contrast","label","endpoint_short"
+"S100A8 / beta-actin","siNC",-0.197702340454803,0.0223648109542676,2,-0.293930355357513,-0.101474325552093,"siNC","S100A8/β-actin  |  siNC","S100A8/β-actin"
+"S100A8 / beta-actin","siS100A8",-0.0304375907839137,0.030701260983482,2,-0.162534455161243,0.101659273593416,"siS100A8","S100A8/β-actin  |  siS100A8","S100A8/β-actin"
+"p-NF-kB / total NF-kB","siNC",-0.232797965949877,0.0567891203157671,2,-0.477141829496582,0.0115458975968294,"siNC","p-NF-κB/NF-κB  |  siNC","p-NF-κB/NF-κB"
+"p-NF-kB / total NF-kB","siS100A8",-0.24406628248787,0.0544197703644967,2,-0.478215655999011,-0.0099169089767295,"siS100A8","p-NF-κB/NF-κB  |  siS100A8","p-NF-κB/NF-κB"
+"S100A8 / beta-actin","Dependency contrast",0.16726474967089,0.0529488765750143,2,-0.0605558786617631,0.395085378003542,"Dependency contrast","S100A8/β-actin  |  Dependency contrast","S100A8/β-actin"
+"p-NF-kB / total NF-kB","Dependency contrast",-0.0112683165379935,0.0551654379146749,2,-0.248626038569394,0.226089405493407,"Dependency contrast","p-NF-κB/NF-κB  |  Dependency contrast","p-NF-κB/NF-κB"

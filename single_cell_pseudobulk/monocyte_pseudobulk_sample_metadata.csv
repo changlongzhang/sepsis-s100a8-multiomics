@@ -1,0 +1,8 @@
+"donor_id","group","n_monocytes"
+"HC1","Control",67
+"HC2","Control",96
+"NSES","Sepsis",133
+"P25","Sepsis",13
+"P50","Sepsis",37
+"S2","Sepsis",36
+"S3","Sepsis",20

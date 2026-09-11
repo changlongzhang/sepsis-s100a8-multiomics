@@ -1,0 +1,28 @@
+project: S100A8_triptolide_MD_topjournal
+structure:
+  pdb_id: 5HLO
+  biological_unit: S100A8_homodimer
+  chains: [B, D]
+  ligand: triptolide
+  ligand_resname: TPL
+  retain: [CA]
+  remove: [ZN, crystallization_additives, water]
+force_field:
+  protein: amber99sb-ildn
+  ligand: openff-sage-2.x
+  ligand_charge: am1-bcc-elf10
+  water: tip3p
+systems: [complex, apo]
+replicates: 3
+conditions:
+  temperature_K: 300
+  pressure_bar: 1.0
+  NaCl_M: 0.15
+  timestep_fs: 2
+sampling:
+  minimization: steepest_descent
+  nvt_ps: 500
+  npt_ps: 1000
+  production_ns_target_per_replicate: 100
+  coordinate_interval_ps: 10
+random_seeds: [107985, 207985, 307985]

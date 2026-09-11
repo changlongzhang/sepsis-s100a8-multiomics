@@ -1,0 +1,2 @@
+"dataset","endpoint","n","events","effect_type","estimate","ci_low","ci_high","p_value","log_effect","se"
+"GSE63042","Sepsis vs sterile SIRS",129,106,"OR per 1 SD",2.26587376760809,1.3612258204025,3.77173563253181,0.00165431067660487,0.817960453908521,0.25998715387294

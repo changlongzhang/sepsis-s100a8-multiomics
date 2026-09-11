@@ -1,0 +1,1 @@
+﻿completed=2026-08-21T10:43:53.1015585+08:00; atoms=186_C-alpha; window=20-100ns; stride=100ps; replicas=6; basis=pooled; pbc=cluster_then_nojump

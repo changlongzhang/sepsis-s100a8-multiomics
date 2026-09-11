@@ -1,0 +1,13 @@
+﻿metric,value
+morgan_radius2_2048_tanimoto_chiral,0.8305084745762712
+morgan_radius2_2048_tanimoto_no_chirality,0.8305084745762712
+rdkit_topological_tanimoto,1.0
+maccs_tanimoto,0.8846153846153846
+mcs_smarts,[#8]1-&@[#6]2(-&@[#6]-&@1)-&@[#6]1(-&@[#6](-&@[#6]-&@[#6]3-&@[#6]-&@2-&@[#8]-&@3)-&@[#6]2=&@[#6](-&@[#6]-&@[#6]-&@1)-&@[#6](-&@[#8]-&@[#6]-&@2)=&!@[#8&!R])-&!@[#6&!R]
+mcs_heavy_atoms,18
+mcs_fraction_of_triptolide_heavy_atoms,0.6923076923076923
+mcs_fraction_of_16oh_heavy_atoms,0.6666666666666666
+relaxed_mcs_smarts,[#8]1-&@[#6]23-&@[#6]-&@1-&@[#6]1-&@[#8]-&@[#6]-&@1(-&@[#6](-&@[#6]-&@21-&@[#8]-&@[#6]-&@1-&@[#6]-&@[#6]1-&@[#6]-&@3(-&@[#6]-&@[#6]-&@[#6]2=&@[#6]-&@1-&@[#6]-&@[#8]-&@[#6]-&@2=&!@[#8&!R])-&!@[#6&!R])-&!@[#8&!R])-&!@[#6&!R](-&!@[#6&!R])-&!@[#6&!R]
+relaxed_mcs_heavy_atoms,26
+relaxed_mcs_fraction_of_triptolide_heavy_atoms,1.0
+relaxed_mcs_fraction_of_16oh_heavy_atoms,0.9629629629629629

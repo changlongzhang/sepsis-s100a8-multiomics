@@ -1,0 +1,29 @@
+"donor_id","group","cell_type","n_cells"
+"HC1","Control","B Cells",1454
+"HC2","Control","B Cells",2513
+"NSES","Sepsis","B Cells",491
+"P25","Sepsis","B Cells",149
+"P50","Sepsis","B Cells",142
+"S2","Sepsis","B Cells",3734
+"S3","Sepsis","B Cells",248
+"HC1","Control","Monocytes",67
+"HC2","Control","Monocytes",96
+"NSES","Sepsis","Monocytes",133
+"P25","Sepsis","Monocytes",13
+"P50","Sepsis","Monocytes",37
+"S2","Sepsis","Monocytes",36
+"S3","Sepsis","Monocytes",20
+"HC1","Control","NK Cells",888
+"HC2","Control","NK Cells",788
+"NSES","Sepsis","NK Cells",370
+"P25","Sepsis","NK Cells",523
+"P50","Sepsis","NK Cells",338
+"S2","Sepsis","NK Cells",499
+"S3","Sepsis","NK Cells",222
+"HC1","Control","T Cells",3201
+"HC2","Control","T Cells",2390
+"NSES","Sepsis","T Cells",1010
+"P25","Sepsis","T Cells",400
+"P50","Sepsis","T Cells",441
+"S2","Sepsis","T Cells",2104
+"S3","Sepsis","T Cells",530

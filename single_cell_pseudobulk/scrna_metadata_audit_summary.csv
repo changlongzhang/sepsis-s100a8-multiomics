@@ -1,0 +1,9 @@
+"metric","value"
+"donors_total",7
+"control_donors",2
+"sepsis_donors",5
+"cells_total",22837
+"monocytes_total",402
+"donors_mono_ge20",6
+"donors_mono_ge50",3
+"orig_ident_equals_donor",0

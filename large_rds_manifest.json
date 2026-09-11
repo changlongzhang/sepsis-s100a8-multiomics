@@ -1,0 +1,69 @@
+{
+  "source_archive": "S2_code_and_source_data.zip",
+  "source_archive_sha256": "7d059989cf6e024f65bbe39fa6dcdfba4acb5db5c18b1127c3e57b38f3559a47",
+  "method": "Lossless byte splitting; concatenate parts in order to reconstruct each RDS file.",
+  "large_files": [
+    {
+      "original_path": "wgcna_final_rerun/GSE65682_log2_RMA_genelevel_maxprobe_final.rds",
+      "size": 59829728,
+      "sha256": "d4522a2192279d7c3d981238642d721bee9743589728672ced7e56580555294d",
+      "parts": [
+        {
+          "archive": "S3_maxprobe_rds_part1_of_4.zip",
+          "member": "GSE65682_log2_RMA_genelevel_maxprobe_final.rds.part01of04",
+          "size": 15728640,
+          "sha256": "0188d3234ffbf4649e48a6c46ab1505f8756d6dbe61aa2c0eca6af5083947b67"
+        },
+        {
+          "archive": "S4_maxprobe_rds_part2_of_4.zip",
+          "member": "GSE65682_log2_RMA_genelevel_maxprobe_final.rds.part02of04",
+          "size": 15728640,
+          "sha256": "ab884909a8d74a209020ae97782df362bc5ddcd61ada86d5928835ebfceabe71"
+        },
+        {
+          "archive": "S5_maxprobe_rds_part3_of_4.zip",
+          "member": "GSE65682_log2_RMA_genelevel_maxprobe_final.rds.part03of04",
+          "size": 15728640,
+          "sha256": "57277169b0e9d20b13d5c89028446de4cc3cf6bc4b4c3cb6391c26ac537d412c"
+        },
+        {
+          "archive": "S6_maxprobe_rds_part4_of_4.zip",
+          "member": "GSE65682_log2_RMA_genelevel_maxprobe_final.rds.part04of04",
+          "size": 12643808,
+          "sha256": "50fd260878c72c3aa1ccd4bf2694c9393dfef3d05d6e421718450d8d74c7239a"
+        }
+      ]
+    },
+    {
+      "original_path": "wgcna_meanprobe_sensitivity/GSE65682_log2_RMA_genelevel_meanprobe_sensitivity.rds",
+      "size": 58542628,
+      "sha256": "1951921d46a7eb45acdd1945ad0b471b25580c3781c8c92334a94119579c78db",
+      "parts": [
+        {
+          "archive": "S7_meanprobe_rds_part1_of_4.zip",
+          "member": "GSE65682_log2_RMA_genelevel_meanprobe_sensitivity.rds.part01of04",
+          "size": 15728640,
+          "sha256": "919d93a9e5c1481570042d775dc42ffca74215d3bc5062a1dd629081aff2a867"
+        },
+        {
+          "archive": "S8_meanprobe_rds_part2_of_4.zip",
+          "member": "GSE65682_log2_RMA_genelevel_meanprobe_sensitivity.rds.part02of04",
+          "size": 15728640,
+          "sha256": "a151345ee383c78c33142dde400e2efbc1498b67d0c3b142f3828f096e2c03c1"
+        },
+        {
+          "archive": "S9_meanprobe_rds_part3_of_4.zip",
+          "member": "GSE65682_log2_RMA_genelevel_meanprobe_sensitivity.rds.part03of04",
+          "size": 15728640,
+          "sha256": "79bf5b048f1ac3ad444659ebe2ac02d171657b4851bc78aefae0a1cbd1d8eba5"
+        },
+        {
+          "archive": "S10_meanprobe_rds_part4_of_4.zip",
+          "member": "GSE65682_log2_RMA_genelevel_meanprobe_sensitivity.rds.part04of04",
+          "size": 11356708,
+          "sha256": "4d71d698f147b70d3d5b9319f34e7eca559fdbd3fae5be27f79d7abb4f715a71"
+        }
+      ]
+    }
+  ]
+}

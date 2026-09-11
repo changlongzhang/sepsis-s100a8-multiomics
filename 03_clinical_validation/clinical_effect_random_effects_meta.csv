@@ -1,0 +1,3 @@
+"comparator_family","k","pooled_SMD","ci_low","ci_high","p_value","I2","interpretation"
+"Healthy case-control",5,2.7006524857552,1.19240709359787,4.20889787791252,0.000448956323595537,92.9293958390131,"Case-control evidence"
+"Clinically similar comparator",4,1.3749581675901,0.730919891454219,2.01899644372597,2.86008758430107e-05,55.9677557707312,"Exploratory only because comparator phenotypes differ"

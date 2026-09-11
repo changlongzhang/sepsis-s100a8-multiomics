@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or source-data archive, please cite the associated manuscript and the versioned Zenodo record."
+title: "Code and source data for: Multi-cohort transcriptomics and donor-aware single-cell analyses prioritize S100A8 within an emergency-myeloid, HLA-DR-low state in sepsis"
+type: dataset
+version: 2.0.0
+date-released: 2026-09-11
+authors:
+  - family-names: Zhang
+    given-names: Changlong
+  - family-names: Cui
+    given-names: Qianqian
+  - family-names: Wu
+    given-names: Qiyun
+  - family-names: Tang
+    given-names: Wei
+  - family-names: Chu
+    given-names: Liang
+  - family-names: Zhang
+    given-names: Lei
+repository-code: "https://github.com/changlongzhang/sepsis-s100a8-multiomics"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.19480951"
+    description: "Zenodo concept DOI; replace/add the new version DOI after the new Zenodo version is published"
+license: MIT

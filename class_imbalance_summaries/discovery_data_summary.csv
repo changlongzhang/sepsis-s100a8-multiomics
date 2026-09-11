@@ -1,0 +1,11 @@
+"item","value"
+"probe_count",24646
+"gene_count",11518
+"sample_count",802
+"sepsis_count",760
+"normal_count",42
+"duplicate_sample_ids",0
+"missing_group",0
+"log2_scale_confirmed",1
+"S100A8_probe_count",1
+"S100A8_gene_present",1

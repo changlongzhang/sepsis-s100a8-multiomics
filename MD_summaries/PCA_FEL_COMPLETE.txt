@@ -1,0 +1,2 @@
+completed; common pooled C-alpha basis; 186 atoms; six trajectories; 20-100 ns; 100 ps stride
+FEL: 50x50 common grid; T=300.0 K; kBT=2.494339 kJ/mol; empty bins not extrapolated

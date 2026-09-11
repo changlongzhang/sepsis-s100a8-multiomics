@@ -1,0 +1,10 @@
+"step","title","detail"
+1,"Discovery cohort","760 sepsis · 42 normal"
+2,"Pre-processing","Fold-internal screening
+and scaling"
+3,"Nested validation","Weighted 5-fold CV
+20 repeats"
+4,"Class-balance audit","1:1 downsampling
+1,000 iterations"
+5,"Uncertainty audit","Stratified bootstrap
+1,000 iterations"

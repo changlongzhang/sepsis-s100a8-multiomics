@@ -1,0 +1,5 @@
+"receptor","scoring","mean_delta","sd","n_pairs","se","ci_low","ci_high","morgan_tanimoto","maccs_tanimoto","contact_jaccard","conclusion"
+"AC","vina",0.1501,0.0202124823919388,10,0.00639174815245749,0.135640861134116,0.164559138865884,"0.8305084745762712","0.8846153846153846",0.9,"Closely matched pose/contact pattern; not proof of equal pharmacology or direct binding"
+"BD","vina",0.2118,0.0116409239801278,10,0.00368118338460764,0.203472584638936,0.220127415361064,"0.8305084745762712","0.8846153846153846",1,"Closely matched pose/contact pattern; not proof of equal pharmacology or direct binding"
+"AC","vinardo",0.4114,0.020494985836649,10,0.00648108358567026,0.396738770343982,0.426061229656018,"0.8305084745762712","0.8846153846153846",1,"Closely matched pose/contact pattern; not proof of equal pharmacology or direct binding"
+"BD","vinardo",-0.0369000000000001,0.0116852233373797,10,0.00369519207138739,-0.0452591052122042,-0.0285408947877959,"0.8305084745762712","0.8846153846153846",1,"Closely matched pose/contact pattern; not proof of equal pharmacology or direct binding"
